@@ -1,0 +1,1 @@
+"""FurniShop API package namespace."""

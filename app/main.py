@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.features.bedrooms.routers.bedroom_router import bedrooms_router
 from app.features.chairs.routers.chair_router import chairs_router
 from app.features.desks.routers.desk_router import desks_router
 from app.features.living_rooms.routers.living_room_router import living_rooms_router
@@ -22,6 +23,7 @@ app.include_router(
     prefix="/api/v1/living-rooms",
     tags=["living-rooms"],
 )
+app.include_router(bedrooms_router, prefix="/api/v1/bedrooms", tags=["bedrooms"])
 
 
 @app.get("/")

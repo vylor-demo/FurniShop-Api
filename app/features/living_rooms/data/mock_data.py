@@ -1,0 +1,47 @@
+"""In-memory mock catalog for the living rooms feature."""
+
+LIVING_ROOMS_DATA = [
+    {
+        "id": "livingroom-001",
+        "name": "Contemporary Sofa",
+        "description": "A stylish, comfortable sofa perfect for modern living rooms. Soft fabric upholstery and solid wood frame.",
+        "price": 799.99,
+        "original_price": 999.99,
+        "image_url": "https://images.unsplash.com/photo-1586105251261-72dab2f3c17e?w=400",
+        "rating": 4.7,
+        "review_count": 142,
+        "in_stock": True,
+        "category": "sofa",
+        "material": "fabric",
+        "color": "gray",
+        "dimensions": {
+            "width": 200,
+            "height": 90,
+            "depth": 100,
+            "weight": 60,
+        },
+        "is_featured": True,
+        "tags": ["sofa", "living room", "fabric"],
+    },
+    {
+        "id": "livingroom-002",
+        "name": "Modern Coffee Table",
+        "description": "Sleek coffee table with tempered glass top and minimalist metal legs, ideal for contemporary settings.",
+        "price": 249.99,
+        "image_url": "https://images.unsplash.com/photo-1598300058732-033ca9044b09?w=400",
+        "rating": 4.5,
+        "review_count": 98,
+        "in_stock": True,
+        "category": "coffee_table",
+        "material": "glass",
+        "color": "black",
+        "dimensions": {
+            "width": 120,
+            "height": 45,
+            "depth": 60,
+            "weight": 20,
+        },
+        "is_featured": False,
+        "tags": ["coffee table", "modern"],
+    },
+]

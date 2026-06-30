@@ -1,0 +1,47 @@
+"""In-memory mock catalog for the bedrooms feature."""
+
+BEDROOMS_DATA = [
+    {
+        "id": "bedroom-001",
+        "name": "Modern Platform Bed",
+        "description": "Minimalist queen platform bed with upholstered headboard and solid wood frame.",
+        "price": 899.99,
+        "original_price": 1099.99,
+        "image_url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400",
+        "rating": 4.8,
+        "review_count": 176,
+        "in_stock": True,
+        "category": "bed",
+        "material": "wood",
+        "color": "walnut",
+        "dimensions": {
+            "width": 165,
+            "height": 110,
+            "depth": 215,
+            "weight": 75,
+        },
+        "is_featured": True,
+        "tags": ["bed", "platform", "modern"],
+    },
+    {
+        "id": "bedroom-002",
+        "name": "Scandinavian Nightstand",
+        "description": "Compact two-drawer nightstand with clean lines and matte finish.",
+        "price": 179.99,
+        "image_url": "https://images.unsplash.com/photo-1616627451515-cbc80e5ece35?w=400",
+        "rating": 4.5,
+        "review_count": 89,
+        "in_stock": True,
+        "category": "nightstand",
+        "material": "engineered_wood",
+        "color": "white",
+        "dimensions": {
+            "width": 45,
+            "height": 55,
+            "depth": 40,
+            "weight": 16,
+        },
+        "is_featured": False,
+        "tags": ["nightstand", "storage", "scandinavian"],
+    },
+]

@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.features.bedrooms.routers.bedroom_router import bedrooms_router
-from app.features.chairs.routers.chair_router import chairs_router
-from app.features.desks.routers.desk_router import desks_router
+from app.features.chairs.routers.chair_router import router as chairs_router
+from app.features.desks.routers.desk_router import router as desks_router
 from app.features.living_rooms.routers.living_room_router import living_rooms_router
 
 app = FastAPI(title="FurniShop Demo API", version="0.1.0")
